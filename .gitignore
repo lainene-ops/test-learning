@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Java
+*.class
+target/
+out/
+
+# IDE
+.idea/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 本地文件
+*.log
+.env
+data/
