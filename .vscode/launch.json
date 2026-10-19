@@ -8,14 +8,16 @@
             "type": "java",
             "name": "Current File",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "${file}",
+            "vmArgs": "-Dfile.encoding=GBK"
         },
         {
             "type": "java",
             "name": "Week1Hello",
             "request": "launch",
             "mainClass": "Week1Hello",
-            "projectName": "test-learning_18e200af"
+            "projectName": "test-learning_18e200af",
+            "vmArgs": "-Dfile.encoding=GBK"
         }
     ]
 }
