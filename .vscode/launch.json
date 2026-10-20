@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringPractice",
+            "request": "launch",
+            "mainClass": "StringPractice",
+            "projectName": "test-learning_18e200af"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
