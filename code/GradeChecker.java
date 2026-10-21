@@ -16,33 +16,34 @@ public class GradeChecker {
             System.out.println("分数超出范围");
             return;
         }
-
+        // TODO 1：判断范围，超出 0-100 就提示并结束
         if (score >= 90) {
-            System.out.println("if 版本：A");
+            System.out.println("A");
         } else if (score >= 80) {
-            System.out.println("if 版本：B");
+            System.out.println("B");
         } else if (score >= 60) {
-            System.out.println("if 版本：C");
+            System.out.println("C");
         } else {
-            System.out.println("if 版本：D");
+            System.out.println("D");
         }
+        // TODO 2：按分数输出 A / B / C / D
+    }System.out.println("switch 版本："+ gradeWithSwitch(score));
+}
 
-        System.out.println("switch 版本：" + gradeWithSwitch(score));
-    }
 
-    public static String gradeWithSwitch(int score) {
-        int level = score / 10;
-        switch (level) {
-            case 10:
-            case 9:
-                return "A";
-            case 8:
-                return "B";
-            case 6:
-            case 7:
-                return "C";
-            default:
-                return "D";
-        }
+
+public static String gradeWithSwitch(int score) {
+    int level = score / 10;
+    switch (level) {
+        case 10:
+        case 9:
+            return "A";
+        case 8:
+            return "B";
+        case 7:
+        case 6:
+            return "C";
+        default:
+            return "D";
     }
 }

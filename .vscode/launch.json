@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringCompare",
+            "request": "launch",
+            "mainClass": "StringCompare",
+            "projectName": "test-learning_18e200af"
+        },
+        {
+            "type": "java",
             "name": "GradeChecker",
             "request": "launch",
             "mainClass": "GradeChecker",
