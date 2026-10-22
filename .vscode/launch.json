@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GuessNumber",
+            "request": "launch",
+            "mainClass": "GuessNumber",
+            "projectName": "test-learning_18e200af"
+        },
+        {
+            "type": "java",
+            "name": "MutiplicationTable",
+            "request": "launch",
+            "mainClass": "MutiplicationTable",
+            "projectName": "test-learning_18e200af"
+        },
+        {
+            "type": "java",
             "name": "StringCompare",
             "request": "launch",
             "mainClass": "StringCompare",
