@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayPratice",
+            "request": "launch",
+            "mainClass": "ArrayPratice",
+            "projectName": "test-learning_18e200af"
+        },
+        {
+            "type": "java",
             "name": "GuessNumber",
             "request": "launch",
             "mainClass": "GuessNumber",

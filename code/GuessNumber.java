@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class GuessNumber {
     public static void main(String[] args) {
-        Random random = new Random(1);
+        Random random = new Random();
         int answer = random.nextInt(100) + 1; // 1 到 100
 
         Scanner sc = new Scanner(System.in, Charset.forName("GBK"));
