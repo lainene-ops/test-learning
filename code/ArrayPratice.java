@@ -34,7 +34,5 @@ public class ArrayPratice {
             }
             System.out.println("及格人数为：" + passcount);
         }
-        int[] values = new int[3];
-        System.out.println(values[3]);
     }
 }

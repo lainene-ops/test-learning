@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddressBook",
+            "request": "launch",
+            "mainClass": "AddressBook",
+            "projectName": "test-learning_18e200af"
+        },
+        {
+            "type": "java",
             "name": "ArrayPratice",
             "request": "launch",
             "mainClass": "ArrayPratice",
